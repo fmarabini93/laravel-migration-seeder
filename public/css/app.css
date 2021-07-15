@@ -21,6 +21,7 @@
   left: 0;
   padding: 30px;
   opacity: 0;
+  cursor: pointer;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.7);
 }
