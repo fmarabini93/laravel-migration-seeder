@@ -57,6 +57,15 @@ class TravelsTableSeeder extends Seeder
                 'transport'=>'Plane',
                 'company'=>'Ryanair',
                 'price'=>550
+            ],
+            [
+                'name'=>'Lisbon',
+                'description'=>'Lisbon, Portuguese Lisboa, city, port, capital of Portugal, and the centre of the Lisbon metropolitan area.',
+                'departure_date'=>'2021-08-24',
+                'arrival_date'=>'2021-08-29',
+                'transport'=>'Plane',
+                'company'=>'Ryanair',
+                'price'=>450
             ]
         ];
         foreach($travels as $travel) {

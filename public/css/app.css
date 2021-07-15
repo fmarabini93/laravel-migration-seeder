@@ -1,0 +1,47 @@
+.card {
+  width: calc(100% / 3 - 40px);
+  height: 400px;
+  position: relative;
+  margin: 0 20px;
+  border-radius: 50px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card .layover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  opacity: 0;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card:hover .layover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1800px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom right, #eee2df, #b36a5e);
+}
+

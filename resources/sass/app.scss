@@ -1,1 +1,16 @@
-//
+@import 'partials/card';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1800px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom right, #eee2df, #b36a5e);
+}
